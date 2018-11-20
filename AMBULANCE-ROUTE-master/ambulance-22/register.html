@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	   <script src="https://www.gstatic.com/firebasejs/5.5.3/firebase.js"></script>
+	    <script>
+      // Initialize Firebase
+      var config = {
+        apiKey: "AIzaSyC16NVaWWkDhYm5VgQR5ekO_zYpdmlgiHU",
+        authDomain: "ambulance-5777d.firebaseapp.com",
+        databaseURL: "https://ambulance-5777d.firebaseio.com",
+        projectId: "ambulance-5777d",
+        storageBucket: "ambulance-5777d.appspot.com",
+        messagingSenderId: "656642548622"
+      };
+      firebase.initializeApp(config);
+    </script>
+</head>
+<body>
+	<input id="email" type="text" placeholder="Nombre o Correo Electrónico"><br>
+    <input id="contraseña"  type="password" placeholder="Contraseña nueva"><br>
+    <button onclick="guardarbtn()">guardar</button>
+	<script src="js/register.js"></script>
+</body>
+</html>

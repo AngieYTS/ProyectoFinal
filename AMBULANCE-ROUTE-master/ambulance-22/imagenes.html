@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Document</title>
+  <script src="js/image.js"></script>
+          <script
+    src="https://code.jquery.com/jquery-3.3.1.min.js"
+    integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+    crossorigin="anonymous"></script>
+
+<script src="https://www.gstatic.com/firebasejs/5.5.5/firebase.js"></script>
+<script>
+  // Initialize Firebase
+  var config = {
+    apiKey: "AIzaSyAqc7MbKuIn03dxGVeoCWjqsUHCKQNtxcQ",
+    authDomain: "imagenes-9524b.firebaseapp.com",
+    databaseURL: "https://imagenes-9524b.firebaseio.com",
+    projectId: "imagenes-9524b",
+    storageBucket: "imagenes-9524b.appspot.com",
+    messagingSenderId: "811732095793"
+  };
+  firebase.initializeApp(config);
+</script>
+
+</head>
+<body>
+  <div class="container">
+    <div class="row">
+        <div class="col-sm-8">
+          <div id="imagenes-de-firebase">
+          </div>
+        </div>
+        <div class="col-sm-4">
+          <form id="form-imagenes">
+            <label class="btn btn-file">
+              <input type="file" name="fichero" value="" id="fichero" class="hidden">
+            </label>
+          </form>
+         </div>
+       </div>
+     </div>
+</body>
+</html>

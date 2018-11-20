@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <title>Inicio de sesión</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="Shortcut Icon" type="image/x-icon" href="assets/icons/logo.png" />
+    <script src="js/sweet-alert.min.js"></script>
+    <link rel="stylesheet" href="css/sweet-alert.css">
+    <link rel="stylesheet" href="css/material-design-iconic-font.min.css">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/jquery.mCustomScrollbar.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/login.css"/>
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+    <script>window.jQuery || document.write('<script src="js/jquery-1.11.2.min.js"><\/script>')</script>
+    <script src="js/modernizr.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/jquery.mCustomScrollbar.concat.min.js"></script>
+    <script src="js/main.js"></script>
+          <script
+    src="https://code.jquery.com/jquery-3.3.1.min.js"
+    integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+    crossorigin="anonymous"></script>
+    <!-- jQuery library -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<!-- Latest compiled and minified CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+  <!-- Optional theme -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+
+  <!-- Latest compiled and minified JavaScript -->
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+    <script src="https://www.gstatic.com/firebasejs/5.5.3/firebase.js"></script>
+    <script>
+      // Initialize Firebase
+      var config = {
+        apiKey: "AIzaSyC16NVaWWkDhYm5VgQR5ekO_zYpdmlgiHU",
+        authDomain: "ambulance-5777d.firebaseapp.com",
+        databaseURL: "https://ambulance-5777d.firebaseio.com",
+        projectId: "ambulance-5777d",
+        storageBucket: "ambulance-5777d.appspot.com",
+        messagingSenderId: "656642548622"
+      };
+      firebase.initializeApp(config);
+    </script>
+  <script src="js/login.js"></script>
+
+</head>
+<body class="full-cover-background" style="background-image:url(assets/img/font-login.jpg);">
+    <div class="form-container">
+        <p class="text-center" style="margin-top: 17px;">
+           <i class="zmdi zmdi-account-circle zmdi-hc-5x"></i>
+       </p>
+       <h4 class="text-center all-tittles" style="margin-bottom: 30px;">inicia sesión con tu cuenta</h4>
+       <form id="form-login">
+            <div class="group-material-login">
+              <input type="text" class="material-login-control" required="" maxlength="70" name="email" id="email">
+              <span class="highlight-login"></span>
+              <span class="bar-login"></span>
+              <label for="email"><i class="zmdi zmdi-account"></i> &nbsp; Email</label>
+            </div><br>
+            <div class="group-material-login">
+              <input type="password" class="material-login-control" required="" maxlength="70" name="password" id="password">
+              <span class="highlight-login"></span>
+              <span class="bar-login"></span>
+              <label for="password"><i class="zmdi zmdi-lock"></i> &nbsp; Contraseña</label>
+            </div>
+            <p class="text-center">
+            <input type="submit" class="btn btn-primary" name="Ingresar" value="ingresar">
+            </p>
+        </form>
+    </div> 
+  <!-- Modal -->
+<div id="errorModal" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+
+    <!-- Modal content-->
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal">&times;</button>
+        <h4 class="modal-title">Información Incorrecta</h4>
+      </div>
+      <div class="modal-body">
+      <p class="text-center">
+        <strong class="text-danger" style="font-size:15px;"><i class="zmdi zmdi-alert-triangle"></i> &nbsp; ¡Importante Contraseña O Correo Incorrectos! </strong>
+      </p>
+      </div>
+      <div class="modal-footer">
+      <button type="button" class="btn btn-primary" data-dismiss="modal">Cerrar</button>
+
+      </div>
+    </div>
+
+  </div>
+</div>
+
+</body>
+</html>

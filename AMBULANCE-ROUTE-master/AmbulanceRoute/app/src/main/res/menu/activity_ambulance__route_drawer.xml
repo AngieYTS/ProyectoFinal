@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/Perfil"
+            android:icon="@drawable/ic_menu_camera"
+            android:title="Perfil" />
+        <item
+            android:id="@+id/solicitar"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="Solicitar Ambulancia" />
+        <item
+            android:id="@+id/numeros"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="Numeros de Emergencia" />
+        <item
+            android:id="@+id/Mision"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="Misión y Visión" />
+
+    </group>
+
+
+            <item
+                android:id="@+id/contactanos"
+                android:icon="@drawable/ic_menu_send"
+                android:title="Contactanos" />
+            <item
+                android:id="@+id/Cerrar"
+                android:icon="@drawable/ic_menu_slideshow"
+                android:title="Cerrar Sesión" />
+
+
+
+</menu>

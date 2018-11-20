@@ -1,0 +1,151 @@
+{
+  "project_info": {
+    "project_number": "827450427635",
+    "firebase_url": "https://ambulance-route-fdb5e.firebaseio.com",
+    "project_id": "ambulance-route-fdb5e",
+    "storage_bucket": "ambulance-route-fdb5e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:827450427635:android:e5026e8c4eed2e4a",
+        "android_client_info": {
+          "package_name": "co.edu.assena.anyi1003.navigation"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "827450427635-k0b32r7bhun9ea7g11eghn9uim9tp9m5.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "co.edu.assena.anyi1003.navigation",
+            "certificate_hash": "626c82c1381754478a04f8a25ec70102071b217e"
+          }
+        },
+        {
+          "client_id": "827450427635-vtigc31baonit9p2re79f447v0s5sgig.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBhbyGzdArQDG9NOS-V6hla6O5NCnefltA"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "827450427635-vtigc31baonit9p2re79f447v0s5sgig.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:827450427635:android:2624217c55707ea9",
+        "android_client_info": {
+          "package_name": "com.valencia.activitymenu"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "827450427635-k23ljc0in9eesl6cdpb85o57pdhvvftl.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.valencia.activitymenu",
+            "certificate_hash": "626c82c1381754478a04f8a25ec70102071b217e"
+          }
+        },
+        {
+          "client_id": "827450427635-3n29rhce4ct41a8tbcqqu3ptrj315tb7.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.valencia.activitymenu",
+            "certificate_hash": "1f0533d83488ce96a453a3ae93473cafab8e1f41"
+          }
+        },
+        {
+          "client_id": "827450427635-vtigc31baonit9p2re79f447v0s5sgig.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBhbyGzdArQDG9NOS-V6hla6O5NCnefltA"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "827450427635-vtigc31baonit9p2re79f447v0s5sgig.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:827450427635:android:a80842ab81106ffc",
+        "android_client_info": {
+          "package_name": "com.valencia.ambulanceroute"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "827450427635-gb8saldd9l6oqk2url82idqpl7nmih0s.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.valencia.ambulanceroute",
+            "certificate_hash": "626c82c1381754478a04f8a25ec70102071b217e"
+          }
+        },
+        {
+          "client_id": "827450427635-vtigc31baonit9p2re79f447v0s5sgig.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBhbyGzdArQDG9NOS-V6hla6O5NCnefltA"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "827450427635-vtigc31baonit9p2re79f447v0s5sgig.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
